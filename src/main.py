@@ -57,7 +57,7 @@ class IDCardRenderer:
             processed_photo = ImageProcessor.process_employee_photo(photo_location, temp_filename)
             if processed_photo:
                 self.canvas.drawImage(processed_photo, 1.9 * inch, 
-                                    0.7 * inch,
+                                    0.73 * inch,
                                     width=1.1 * inch, height=1.1 * inch)
                 os.remove(temp_filename)
         else:
