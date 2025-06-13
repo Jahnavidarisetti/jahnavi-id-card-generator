@@ -70,7 +70,7 @@ class IDCardRenderer:
     def _render_text_elements(self, name):
         """Render name text on the card"""
         self.canvas.setFont("Helvetica-Bold", 12)
-        self.canvas.drawString(0.3 * inch, 0.25 * inch, name)
+        self.canvas.drawString(0.25 * inch, 0.22 * inch, name)
 
 
 class IDCardGenerator:
